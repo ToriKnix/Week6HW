@@ -10,10 +10,16 @@
 <body>
     <section class="section">
     <header>Weather Dashboard</header>
+    <div><h2>Search for your city:</h2>
+        <label for="search-input">Search by City:</label>
+            <input type="text" id="search-input">
+            <button id="search-button">Search</button>
+    </div>
+
     <div>
         <h2>Current Location</h2>
-        <p>City: <span id="City"></span></p>
-        <p>Country: <span id="Country"></span></p>
+        <p>City: <span id="searched-city"></span></p>
+        <p>State: <span id="searched-country"></span></p>
     </div>
     <div>
         <h2>Temperature</h2>
