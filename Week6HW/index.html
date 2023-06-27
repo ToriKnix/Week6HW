@@ -8,25 +8,19 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <section class="section">
+    <div class="section">
     <header>Weather Dashboard</header>
-    <div><h2>Search for your city:</h2>
-        <label for="search-input">Search by City:</label>
-            <input type="text" id="search-input">
-            <button id="search-button">Search</button>
-    </div>
-
-    <div>
+    <div class="location">
         <h2>Current Location</h2>
-        <p>City: <span id="searched-city"></span></p>
-        <p>State: <span id="searched-country"></span></p>
+        <p>City: <span id="City"></span></p>
+        <p>Country: <span id="Country"></span></p>
     </div>
-    <div>
+    <div class="Temperature">
         <h2>Temperature</h2>
         <p>Current Temperature: <span id="temp"></span></p>
         <p>Feels Like: <span id="feels-like"></span></p>
     </div>
-    <div>
+    <div class="conditions">
         <h2>Current Conditions</h2>
         <p>Conditions: <span id="conditions"></span></p>
         <p>Wind Speed: <span id="wind-speed"></span></p>
